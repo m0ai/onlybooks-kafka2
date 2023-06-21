@@ -1,0 +1,13 @@
+apiVersion: kafka.strimzi.io/v1beta2
+kind: KafkaTopic
+metadata:
+  name: peter-test03
+  namespace: kafka
+  labels:
+    strimzi.io/cluster: "my-cluster"
+spec:
+  partitions: 1
+  replicas: 3
+  # set retention.ms to 0 second
+#  config:
+#   retention.ms: 0
