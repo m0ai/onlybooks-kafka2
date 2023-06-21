@@ -1,5 +1,5 @@
 
-# 132p
+# p132
 ```bash
  kubectl exec -it my-cluster-kafka-0 -c kafka \
     -- bin/kafka-topics.sh  \
@@ -93,7 +93,7 @@ kubectl exec -it my-cluster-kafka-0 -c kafka \
 > log1
 ```
 
-# 143
+# p143
 ```shell
 # topic 3 에 retention.ms=0 설정
 kubectl exec -it my-cluster-kafka-0 -c kafka \
