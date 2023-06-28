@@ -17,8 +17,10 @@ spec:
         type: internal
         tls: true
     config:
+      exclude.internal.topics: false
       offsets.topic.replication.factor: 3
-      transaction.state.log.replication.factor: 1
+      transaction.state.log.replication.factor: 3
+      transaction.state.log.num.partitions: 3
       transaction.state.log.min.isr: 1
       default.replication.factor: 3
       min.insync.replicas: 1
@@ -29,6 +31,8 @@ spec:
         - id: 0
           type: persistent-claim
           size: 100Gi
+
+
           deleteClaim: false
   zookeeper:
     replicas: 1
