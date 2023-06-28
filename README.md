@@ -1,5 +1,8 @@
+# Chapters
+- [CHAPTER_4.md](CHAPTER_4.md)
+- [CHAPTER_5.md](CHAPTER_5.md)
 
-# 사전 구성 
+# Pre-requisites 
 - [kind](https://kind.sigs.k8s.io/docs/user/quick-start/#installing-with-a-package-manager)
 - [helm 3](https://helm.sh/ko/docs/intro/install/#%ED%8C%A8%ED%82%A4%EC%A7%80-%EB%A7%A4%EB%8B%88%EC%A0%80%EB%A5%BC-%ED%86%B5%ED%95%B4%EC%84%9C)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
